@@ -1,23 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>4択クイズアプリ</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4択 クイズアプリ</title>
 </head>
 <body>
-  <h1>正解数: <span id="correctCount">0</span> / 出題数: <span id="questionCount">0</span></h1>
-  <h2>以下の組み合わせの元素名を答えなさい</h2>
-  <div class="questionArea">
-    <div id="phaseArea" class="q-char"></div>
-    <p>+</p>
-    <div id="questionText" class="q-char"></div>
-  </div>
-  <div id="optionsContainer"></div>
-  <button id="submitButton">スタート</button>
-
-  <script src="quizData.js"></script>
-  <script src="quiz.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>

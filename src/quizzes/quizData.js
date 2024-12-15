@@ -1416,116 +1416,118 @@ const elements = [
     symbol: 'Og\n',
   },
 ];
-
-const quizData = [
-  {
-    id: 1,
-    phase: elements[5].phase,
-    question: elements[5].side,
-    options: [
-      { text: elements[5].name_ja, answer: true },
-      { text: elements[9].name_ja, answer: false },
-      { text: elements[13].name_ja, answer: false },
-      { text: elements[52].name_ja, answer: false },
-    ],
-  },
-  {
-    id: 2,
-    phase: elements[77].phase,
-    question: elements[77].side,
-    options: [
-      { text: elements[15].name_ja, answer: false },
-      { text: elements[77].name_ja, answer: true },
-      { text: elements[29].name_ja, answer: false },
-      { text: elements[79].name_ja, answer: false },
-    ],
-  },
-  {
-    id: 3,
-    phase: elements[16].phase,
-    question: elements[16].side,
-    options: [
-      { text: elements[0].name_ja, answer: false },
-      { text: elements[6].name_ja, answer: false },
-      { text: elements[7].name_ja, answer: false },
-      { text: elements[16].name_ja, answer: true },
-    ],
-  },
-  {
-    id: 4,
-    phase: elements[10].phase,
-    question: elements[10].side,
-    options: [
-      { text: elements[10].name_ja, answer: true },
-      { text: elements[11].name_ja, answer: false },
-      { text: elements[17].name_ja, answer: false },
-      { text: elements[18].name_ja, answer: false },
-    ],
-  },
-  {
-    id: 5,
-    phase: elements[33].phase,
-    question: elements[33].side,
-    options: [
-      { text: elements[33].name_ja, answer: true },
-      { text: elements[53].name_ja, answer: false },
-      { text: elements[57].name_ja, answer: false },
-      { text: elements[54].name_ja, answer: false },
-    ],
-  },
-  {
-    id: 6,
-    phase: elements[30].phase,
-    question: elements[30].side,
-    options: [
-      { text: elements[30].name_ja, answer: true },
-      { text: elements[63].name_ja, answer: false },
-      { text: elements[47].name_ja, answer: false },
-      { text: elements[31].name_ja, answer: false },
-    ],
-  },
-  {
-    id: 7,
-    phase: elements[60].phase,
-    question: elements[60].side,
-    options: [
-      { text: elements[58].name_ja, answer: false },
-      { text: elements[60].name_ja, answer: true },
-      { text: elements[90].name_ja, answer: false },
-      { text: elements[93].name_ja, answer: false },
-    ],
-  },
-  {
-    id: 8,
-    phase: elements[75].phase,
-    question: elements[75].side,
-    options: [
-      { text: elements[22].name_ja, answer: false },
-      { text: elements[73].name_ja, answer: false },
-      { text: elements[75].name_ja, answer: true },
-      { text: elements[87].name_ja, answer: false },
-    ],
-  },
-  {
-    id: 9,
-    phase: elements[64].phase,
-    question: elements[64].side,
-    options: [
-      { text: elements[38].name_ja, answer: false },
-      { text: elements[69].name_ja, answer: false },
-      { text: elements[67].name_ja, answer: false },
-      { text: elements[64].name_ja, answer: true },
-    ],
-  },
-  {
-    id: 10,
-    phase: elements[107].phase,
-    question: elements[107].side,
-    options: [
-      { text: elements[107].name_ja, answer: true },
-      { text: elements[113].name_ja, answer: false },
-      { text: elements[99].name_ja, answer: false },
-      { text: elements[70].name_ja, answer: false },
-    ],
-  },
-];
+export const quizData = {
+  title: '元素',
+  quizzes: [
+    {
+      id: 1,
+      phase: elements[5].phase,
+      side: elements[5].side,
+      options: [
+        { text: elements[5].name_ja, answer: true },
+        { text: elements[9].name_ja, answer: false },
+        { text: elements[13].name_ja, answer: false },
+        { text: elements[52].name_ja, answer: false },
+      ],
+    },
+    {
+      id: 2,
+      phase: elements[77].phase,
+      side: elements[77].side,
+      options: [
+        { text: elements[15].name_ja, answer: false },
+        { text: elements[77].name_ja, answer: true },
+        { text: elements[29].name_ja, answer: false },
+        { text: elements[79].name_ja, answer: false },
+      ],
+    },
+    {
+      id: 3,
+      phase: elements[16].phase,
+      side: elements[16].side,
+      options: [
+        { text: elements[0].name_ja, answer: false },
+        { text: elements[6].name_ja, answer: false },
+        { text: elements[7].name_ja, answer: false },
+        { text: elements[16].name_ja, answer: true },
+      ],
+    },
+    {
+      id: 4,
+      phase: elements[10].phase,
+      side: elements[10].side,
+      options: [
+        { text: elements[10].name_ja, answer: true },
+        { text: elements[11].name_ja, answer: false },
+        { text: elements[17].name_ja, answer: false },
+        { text: elements[18].name_ja, answer: false },
+      ],
+    },
+    {
+      id: 5,
+      phase: elements[33].phase,
+      side: elements[33].side,
+      options: [
+        { text: elements[33].name_ja, answer: true },
+        { text: elements[53].name_ja, answer: false },
+        { text: elements[57].name_ja, answer: false },
+        { text: elements[54].name_ja, answer: false },
+      ],
+    },
+    {
+      id: 6,
+      phase: elements[30].phase,
+      side: elements[30].side,
+      options: [
+        { text: elements[30].name_ja, answer: true },
+        { text: elements[63].name_ja, answer: false },
+        { text: elements[47].name_ja, answer: false },
+        { text: elements[31].name_ja, answer: false },
+      ],
+    },
+    {
+      id: 7,
+      phase: elements[60].phase,
+      side: elements[60].side,
+      options: [
+        { text: elements[58].name_ja, answer: false },
+        { text: elements[60].name_ja, answer: true },
+        { text: elements[90].name_ja, answer: false },
+        { text: elements[93].name_ja, answer: false },
+      ],
+    },
+    {
+      id: 8,
+      phase: elements[75].phase,
+      side: elements[75].side,
+      options: [
+        { text: elements[22].name_ja, answer: false },
+        { text: elements[73].name_ja, answer: false },
+        { text: elements[75].name_ja, answer: true },
+        { text: elements[87].name_ja, answer: false },
+      ],
+    },
+    {
+      id: 9,
+      phase: elements[64].phase,
+      side: elements[64].side,
+      options: [
+        { text: elements[38].name_ja, answer: false },
+        { text: elements[69].name_ja, answer: false },
+        { text: elements[67].name_ja, answer: false },
+        { text: elements[64].name_ja, answer: true },
+      ],
+    },
+    {
+      id: 10,
+      phase: elements[107].phase,
+      side: elements[107].side,
+      options: [
+        { text: elements[107].name_ja, answer: true },
+        { text: elements[113].name_ja, answer: false },
+        { text: elements[99].name_ja, answer: false },
+        { text: elements[70].name_ja, answer: false },
+      ],
+    },
+  ],
+};
